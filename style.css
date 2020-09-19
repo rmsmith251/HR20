@@ -55,6 +55,7 @@ ul.sidebar {
     height: 100%;
     position: fixed;
     overflow: auto;
+    box-shadow: 3px 1px 10px rgb(34, 34, 34);
 }
 li.sblist a {
     display: block;
