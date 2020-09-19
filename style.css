@@ -1,11 +1,11 @@
 /* General formatting */
 body {
     /* Need to work out background sometime*/
-    /* background-image: url("1.jpg");
+    background-image: url("1.jpg");
     background-repeat: no-repeat;
-    /* background-position: center; */
-    /* background-attachment: fixed;
-    background-size: 100% 100%; */
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
     background-color: rgb(22, 59, 145);
     margin: 0;
 }
@@ -34,6 +34,11 @@ li a{
 }
 li a:hover {
     color: black;
+}
+div {
+    margin-left:25%;
+    padding:1px 16px;
+    background: rgba(83, 83, 83, 0.6);
 }
 
 /* Class definitions */
