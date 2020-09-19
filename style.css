@@ -58,7 +58,7 @@ li.sblist a {
     text-decoration: none;
 }
 li.sblist a.active {
-    background-color: #4CAF50;
+    background-color: #56cece;
     color: white;
 }
 li.sblist a:hover:not(.active) {
