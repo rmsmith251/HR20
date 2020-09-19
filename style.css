@@ -1,19 +1,37 @@
+/* General formatting */
 body {
     /* background-image: url("1.jpg");
     background-repeat: no-repeat;
     /* background-position: center; */
     /* background-attachment: fixed;
     background-size: 100% 100%; */
-    background-color: rgb(160, 188, 252);
+    background-color: rgb(13, 43, 114);
     margin: 0;
 }
 h1, h2 {
-    color: black;
+    color: whitesmoke;
 }
 p {
-    color: black;
+    color: whitesmoke;
 
 }
+p a {
+    color: whitesmoke;
+}
+p a:hover {
+    color: black; /* Change the color of links when hovering */
+}
+li {
+    color: whitesmoke;
+}
+li a{
+    color: whitesmoke;
+}
+li a:hover {
+    color: black;
+}
+
+/* Class definitions */
 .flex-container {
     display: flex;
     flex-wrap: wrap;
@@ -21,6 +39,8 @@ p {
 .round-image-corners {
     border-radius: 5%;
 }
+
+/* Formatting for sidebar */
 ul.sidebar {
     list-style-type: none;
     margin: 0;
