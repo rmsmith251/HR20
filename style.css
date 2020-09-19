@@ -17,3 +17,6 @@ p {
     display: flex;
     flex-wrap: wrap;
 }
+.round-image-corners {
+    border-radius: 5%;
+}
