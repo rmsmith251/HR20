@@ -1,5 +1,6 @@
 /* General formatting */
 body {
+    /* Need to work out background sometime*/
     /* background-image: url("1.jpg");
     background-repeat: no-repeat;
     /* background-position: center; */
@@ -55,7 +56,7 @@ ul.sidebar {
 li.sblist a {
     display: block;
     color: #000;
-    padding: 8px 16px;
+    padding: 10px 16px;
     text-decoration: none;
 }
 li.sblist a.active {
@@ -72,4 +73,14 @@ ul li ul {
 }
 ul li:hover ul{
     display: block;
+}
+
+/* Button class */
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: whitesmoke;
+    float: right;
 }
