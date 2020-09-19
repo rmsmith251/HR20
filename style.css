@@ -5,6 +5,7 @@ body {
     /* background-attachment: fixed;
     background-size: 100% 100%; */
     background-color: rgb(160, 188, 252);
+    margin: 0;
 }
 h1, h2 {
     color: black;
@@ -19,4 +20,28 @@ p {
 }
 .round-image-corners {
     border-radius: 5%;
+}
+ul.sidebar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+}
+li.sblist a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+li.sblist a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+li.sblist a:hover:not(.active) {
+    background-color: #555;
+    color: white;
 }
