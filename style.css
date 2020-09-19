@@ -1,11 +1,11 @@
 /* General formatting */
 body {
     /* Need to work out background sometime*/
-    /* background-image: url("1.jpg");
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/61/River_in_Winter_Park.jpg");
     background-repeat: no-repeat;
-    /* background-position: center; */
-    /* background-attachment: fixed;
-    background-size: 100% 100%; */
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
     background-color: rgb(22, 59, 145);
     margin: 0;
 }
@@ -14,10 +14,12 @@ title {
 }
 h1, h2 {
     color: whitesmoke;
+    padding: 0px 450px;
 }
 p {
     color: whitesmoke;
     word-wrap: break-word;
+    padding: 3px 450px;
 
 }
 p a {
@@ -35,6 +37,14 @@ li a{
 li a:hover {
     color: black;
 }
+div {
+    margin-left:25%;
+    padding:1px 0px;
+    background: rgba(83, 83, 83, 0.6);
+    background-size: cover;
+    height: 100vh;
+}
+
 
 /* Class definitions */
 .flex-container {
@@ -44,7 +54,39 @@ li a:hover {
 .round-image-corners {
     border-radius: 5%;
 }
-
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+.renewables-bg {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/b/bb/Alternative_Energies.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgb(22, 59, 145);
+    margin: 0;
+}
+.beach-bg {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/6b/Beach%2C_New_Brighton%2C_New_Zealand_06.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgb(22, 59, 145);
+    margin: 0;
+}
+.nuclear-bg {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/6f/Stylised_atom_with_three_Bohr_model_orbits_and_stylised_nucleus.svg");
+    background-repeat: no-repeat;
+    background-position: 75%;
+    background-attachment: fixed;
+    background-size: 100vh 100vh;
+    background-color: rgb(22, 59, 145);
+    margin: 0;
+}
 /* Formatting for sidebar */
 ul.sidebar {
     list-style-type: none;
