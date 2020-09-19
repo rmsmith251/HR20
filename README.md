@@ -1,1 +1,5 @@
-TBD
+The goal of our website is to promote Equality and Justice in as many aspects as possible, from social justice to climate change. Social and Environmental justice are very important to us and we believe that with enough help, the world can change for the better. Everyone must work together to improve the world as a whole and not just for an individual.
+ 
+This site will discuss various topics regarding the impacts that have been made on the world. It will also contain information on what is being done not only prevent these negative situations, but reverse them, if possible.  There will also be links to other resources regarding these topics such as reputable studies, articles, and organizations to further educate the reader.
+
+Using our technical training and real world experiences, we will attempt to break down some of the issues affecting society negatively and provide sources to as many reputable oragnizations as possible to promote active participation. We want to show the reader that the first steps toward social and environmental justice have been taken, and their voice can help the world change.
