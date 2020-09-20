@@ -160,6 +160,15 @@ div {
     background-color: rgb(22, 59, 145);
     margin: 0;
 }
+.solutions-bg {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/3/30/Logo_Renewable_Energy_by_Melanie_Maecker-Tursun_V1_4c.svg");
+    background-repeat: no-repeat;
+    background-position: 75%;
+    background-attachment: fixed;
+    background-size: 100vh 100vh;
+    background-color: rgb(22, 59, 145);
+    margin: 0;
+}
 .battery-bg {
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/e/e9/Nikola_Tesla%2C_with_his_equipment_EDIT.jpg");
     background-repeat: no-repeat;
