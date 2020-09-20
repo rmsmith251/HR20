@@ -248,3 +248,32 @@ a.button {
     color: whitesmoke;
     float: right;
 }
+
+/* Punching Bag */
+#bag {
+    width: 200px;
+    height: 500px;
+    margin: 0 auto;
+    background: url(bag.PNG) center no-repeat;
+    background-size: 80%;
+}
+
+#bag.burst{
+    background-image: url(bag-burst.PNG);
+}
+
+#bag-health{
+    width: 200px;
+    border: 2px solid #000;
+    margin: 0 auto 20px auto;
+}
+
+#bag-health div{
+    height: 20px;
+    background: crimson
+}
+
+#controls{
+    width: 120px;
+    margin: 0 auto;
+}
