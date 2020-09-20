@@ -24,6 +24,8 @@ p {
     text-align: center;
     margin-left: 40%;
     margin-right: 20%;
+
+
 }
 p a {
     color: whitesmoke;
@@ -44,10 +46,12 @@ li a:hover {
 div {
     margin-left:0%;
     padding:0px 0px;
-    background: rgba(83, 83, 83, 0.6);
+    background: rgba(83, 83, 83, 0.63);
     background-size: cover;
     overflow: auto;
     height: 100vh;
+    font-size: large;
+    text-shadow: 1px 1px 0 #000, 1px 1px 0 #000
 }
 
 /* Class definitions */
@@ -88,6 +92,16 @@ div {
     background-position: 75%;
     background-attachment: fixed;
     background-size: 100vh 100vh;
+    background-color: rgb(22, 59, 145);
+    margin: 0;
+}
+
+.battery-bg {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/e/e9/Nikola_Tesla%2C_with_his_equipment_EDIT.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
     background-color: rgb(22, 59, 145);
     margin: 0;
 }
