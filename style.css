@@ -15,18 +15,19 @@ title {
 h1, h2 {
     color: whitesmoke;
     text-align: center;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 40%;
+    margin-right: 20%;
 }
 p {
     color: whitesmoke;
     word-wrap: break-word;
     text-align: center;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 40%;
+    margin-right: 20%;
 }
 p a {
     color: whitesmoke;
+    
 }
 p a:hover {
     color: black; /* Change the color of links when hovering */
@@ -41,14 +42,13 @@ li a:hover {
     color: black;
 }
 div {
-    margin-left:25%;
-    padding:1px 0px;
+    margin-left:0%;
+    padding:0px 0px;
     background: rgba(83, 83, 83, 0.6);
     background-size: cover;
+    overflow: auto;
     height: 100vh;
-    background-repeat: repeat repeat;
 }
-
 
 /* Class definitions */
 .flex-container {
@@ -60,9 +60,9 @@ div {
 }
 .center {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    margin-left: 30%;
+    margin-right: 0%;
+    width: 60%;
   }
 .renewables-bg {
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/b/bb/Alternative_Energies.jpg");
@@ -102,6 +102,8 @@ ul.sidebar {
     position: fixed;
     overflow: auto;
     box-shadow: 3px 1px 10px rgb(34, 34, 34);
+    max-width: 400px;
+    min-width: 295px;
 }
 li.sblist a {
     display: block;
