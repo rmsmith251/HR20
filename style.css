@@ -35,14 +35,6 @@ p a {
 p a:hover {
     color: black; /* Change the color of links when hovering */
 }
-ul.body-list {
-    color: whitesmoke;
-    word-wrap: break-word;
-    text-align: center;
-    margin-left: 35%;
-    margin-right: 15%;
-
-}
 li {
     color: whitesmoke;
 } 
@@ -105,7 +97,15 @@ div {
     background-color: rgb(22, 59, 145);
     margin: 0;
 }
-
+.rainbow-bg {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/8/89/Cappadocia_Balloon_Inflating_Wikimedia_Commons.JPG");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgb(22, 59, 145);
+    margin: 0;
+}
 .battery-bg {
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/e/e9/Nikola_Tesla%2C_with_his_equipment_EDIT.jpg");
     background-repeat: no-repeat;
@@ -123,6 +123,22 @@ div {
     background-size: 70vw 100vh;
     background-color: rgb(22, 59, 145);
     margin: 0;
+}
+ul.body-list {
+    color: whitesmoke;
+    word-wrap: break-word;
+    text-align: left;
+    margin-left: 40vw;
+    margin-right: 20vw;
+    list-style-position: inside;
+}
+ol.body-list {
+    color: whitesmoke;
+    word-wrap: break-word;
+    text-align: left;
+    margin-left: 40vw;
+    margin-right: 20vw;
+    list-style-position: inside;
 }
 /* Formatting for sidebar */
 ul.sidebar {
