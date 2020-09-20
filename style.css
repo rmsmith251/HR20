@@ -8,6 +8,7 @@ body {
     background-size: cover;
     background-color: white;
     margin: 0;
+    font-family: 'Arial', Courier, monospace;
 }
 title {
     color: whitesmoke;
@@ -15,15 +16,15 @@ title {
 h1, h2 {
     color: whitesmoke;
     text-align: center;
-    margin-left: 40%;
-    margin-right: 20%;
+    margin-left: 35%;
+    margin-right: 15%;
 }
 p {
     color: whitesmoke;
     word-wrap: break-word;
     text-align: center;
-    margin-left: 40%;
-    margin-right: 20%;
+    margin-left: 35%;
+    margin-right: 15%;
 
 
 }
@@ -34,9 +35,17 @@ p a {
 p a:hover {
     color: black; /* Change the color of links when hovering */
 }
+ul.body-list {
+    color: whitesmoke;
+    word-wrap: break-word;
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 15%;
+
+}
 li {
     color: whitesmoke;
-}
+} 
 li a{
     color: whitesmoke;
 }
@@ -50,8 +59,9 @@ div {
     background-size: cover;
     overflow: auto;
     height: 100vh;
-    font-size: large;
-    text-shadow: 1px 1px 0 #000, 1px 1px 0 #000
+    font-size: x-large;
+    text-shadow: 1px 1px 0 #000, 1px 1px 0 #000;
+    
 }
 
 /* Class definitions */
@@ -102,6 +112,15 @@ div {
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
+    background-color: rgb(22, 59, 145);
+    margin: 0;
+}
+.ge-bg {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/f/f2/Gender_Equality_%286066%29_-_The_Noun_Project.svg");
+    background-repeat: no-repeat;
+    background-position: 25vw;
+    background-attachment: fixed;
+    background-size: 70vw 100vh;
     background-color: rgb(22, 59, 145);
     margin: 0;
 }
