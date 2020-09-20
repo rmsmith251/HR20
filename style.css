@@ -79,8 +79,62 @@ div {
     background-color: rgb(22, 59, 145);
     margin: 0;
 }
+.actions-bg {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/3/3f/Save_trees_save_the_planet.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgb(22, 59, 145);
+    margin: 0;
+}
+.about-bg {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/d/d7/Avent_Park_road_Oxford_Mississippi.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgb(22, 59, 145);
+    margin: 0;
+}
 .beach-bg {
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/6b/Beach%2C_New_Brighton%2C_New_Zealand_06.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgb(22, 59, 145);
+    margin: 0;
+}
+.cvh-bg {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/a/a8/NASA-Apollo8-Dec24-Earthrise.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgb(22, 59, 145);
+    margin: 0;
+}
+.co2-bg {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/a/aa/Huron.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgb(22, 59, 145);
+    margin: 0;
+}
+.resources-bg {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/e/ec/Bookshelf_Prunksaal_OeNB_Vienna_AT_matl00786ch.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgb(22, 59, 145);
+    margin: 0;
+}
+.overview-bg {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/e/e7/Save_the_Planet%3B_FROM_HUMANS%21.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
