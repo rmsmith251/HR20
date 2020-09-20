@@ -6,7 +6,7 @@ body {
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    background-color: rgb(22, 59, 145);
+    background-color: white;
     margin: 0;
 }
 title {
@@ -14,13 +14,16 @@ title {
 }
 h1, h2 {
     color: whitesmoke;
-    padding: 0px 450px;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 p {
     color: whitesmoke;
     word-wrap: break-word;
-    padding: 3px 450px;
-
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 p a {
     color: whitesmoke;
@@ -43,6 +46,7 @@ div {
     background: rgba(83, 83, 83, 0.6);
     background-size: cover;
     height: 100vh;
+    background-repeat: repeat repeat;
 }
 
 
