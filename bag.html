@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+<meta name ="viewport" content = "width = device-width, initial-scale = 1">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
+    <title>Welcome to our Climate Change Hub!</title>
     <link href="style.css" rel="stylesheet"/>
     <script src="https://unpkg.com/vue"></script>
 </head>
+
 <body>
     <ul class="sidebar">
-        <li class="sblist"><a href="index.html">Home</a></li>
+        <li class="sblist"><a class="active" href="index.html">Home</a></li>
         <li class="sblist"><a href="overview.html">How does climate change affect people?</a>
             <ul>
                 <li><a href="climatevshumans.html">Climate Change vs. Humans</a></li>
@@ -37,27 +39,40 @@
                 <li><a href="lgbtq.html">LGBTQ+</a></li>
             </ul>
     </li>
-        <li class="sblist"><a class="active" href="about.html">Who are the creators of this website?</a></li>
+        <li class="sblist"><a href="about.html">Who are the creators of this website?</a></li>
+    <br><br>
+    <li>
+        <li><a href="bag.html">Get out your frustration!</a></li>
+    </li>
     </ul>
-    <div id="About us">
-        <title>Who are we?</title>
-        <h1>Ryan Smith</h1>
-        <p>Ryan is currently working on learning different programming languages and fulfilling the requirements to start a Masters degree in Computer Science and he holds a Bachelor of Science degree in Chemical Engineering from the University of Mississippi. Ryan worked for several companies after college the most recent of which was a petrochemical construction company where he worked in Plaquemine, Louisiana and then Port Arthur, Texas. He currently lives in Houston, Texas with his wife, Melissa Smith DVM, their two dogs, Leila and Murphy, and their cat Izzy.</p>
-        <p><a href="https://www.linkedin.com/in/ryanmsmith251/">LinkedIn</a></p>
-        <p><a href="https://github.com/rmsmith251">Github</a></p>
-
-        <br>
-        
-        <h1>Ryan York</h1>
-        <p> This Ryan was a personal/group fitness trainer for four years and wanted to go to school to pursue a career in engineering.
-            He is graduating in the spring of 2021 with a Bachelor of Science degree in Electrical Engineering Technologies and will continue his education to include a degree in Mechanical Engineering.
-            He lives in Orlando, FL with his fiance&eacute; Victoria. He enjoys playing golf and being outside when he is not 
-            on the computer working on school or side projects, like this website.</p>
-            <p>(Not professional enough to have a LinkedIn... yet)</p>
-            <p><a taget = "_blank" rel = "noopener" href = "https://github.com/rcy10">Github</a></p>
-        </p>
-    </div>
 
     <script src="app.js"></script>
+
+
+<div id = "Welcome">
+    <h1>Hit the bag!</h1>
+    <p>
+    <div id = "vue">
+    <div id = "name"> 
+    </div>    
+    <div id = "bag" v-bind:class="{ burst: ended }"></div>
+
+
+    <div id = "bag-health">
+        <div v-bind:style="{ width: health + '%' }"></div>
+    </div>
+
+
+    <div id = "controls">
+        <button v-on:click= "punch" v-show = "!ended">Punch</button>
+        <button v-on:click= "restart">Restart</button>
+    </div> 
+    </div>
+    </p>
+
+    <br><br>
+    <a target = "_blank" rel = "noopener" href="https://github.com/iamshaunjp" class="button">Credit for game: The Net Ninja</a>
+   
+</div>
 </body>
 </html>
